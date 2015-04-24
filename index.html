@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/Exam2problem.css"/>
+    <script src="js/Exam2problem.js"></script>
+    <title>Spivey Exam Two Problem</title>
+</head>
+
+<body>
+    
+<h1>Spivey Exam Two Problem</h1>
+<select onclick="Select()" id="select">
+    <option>Please Select a Category</option>
+    <option>Display All Categories</option>
+    <option>Add Product Category</option>
+    <option>Change Description of Category</option>
+    <option>Delete a Category</option>
+    <option>About Me</option>
+    
+</select>
+
+<div id="wrapper">
+    
+    <div id="sectionone">
+        <h2>Display Categories</h2>
+    <button onclick="DisplayCatergories()">Display Categories</button>
+    </div>
+    
+    <div id="sectiontwo"><h2>Add a Product Category</h2>
+    <label>Enter Category Name</label>
+    <input type="text" id="categoryname"><br>
+    <label>Enter Category Description</label>
+    <input type="text" id="categorydescription"><br>
+    <button onclick="AddCategory()">Add Category</button>
+    </div>
+    
+    <div id="sectionthree"><h2>Change Category Description</h2>
+    <label>Enter New Category ID</label>
+    <input type="text" id="newcategory">
+    <label>Enter New Category Description</label>
+    <input type="text" id="newcategorydescription"><br>
+    <button onclick="ChangeDescription()">Change Category Description</button>
+    </div>
+    
+    <div id="sectionfour"><h2>Delete Category</h2>
+    <label>Delete Category</label>
+    <input type="text" id="deletecategory">
+    <button onclick="ConfirmDeletion()">Confirm Category Deletion</button>
+    <button onclick="DeleteCategory()" >Delete Category</button>
+    </div>
+    
+    <div id="sectionfive"><h2>About Maya Spivey</h2>
+    <p> Hello I'm Maya Spivey. I'm happily married with three children.<br>
+    I have enjoyed this class, I have learned a lot. I have two more classes<br>
+    to take before I'm finished with the program. </p>
+    </div>
+</div>
+
+<hr>
+<div id="displaysection">
+    <label id="sectiononedisplay">Section one results will be displayed here.</label>
+    <br>
+    <label id="sectiontwodisplay">Section two results will be displayed here.</label>
+    <br>
+    <label id ="sectionthreedisplay">Section three results will be displayed here.</label>
+    <br>
+    <label id ="sectionfourdisplay">Section four results will be displayed here.</label>
+</div>
+
+</body>
+</html>

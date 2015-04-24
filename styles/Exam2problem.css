@@ -1,0 +1,8 @@
+h1{color:#FF9966;}
+
+#wrapper{ width:600px; height:200px;}
+#sectionone{background-color:#FF9955;visibility:hidden; width:600px; height:200px; position:absolute;}
+#sectiontwo{background-color:#FF9955; visibility: hidden; width:600px; height:200px; position:absolute;}
+#sectionthree{background-color:#FF9955; visibility: hidden; width:600px; height:200px; position:absolute;}
+#sectionfour{background-color:#FF9955; visibility:hidden; width:600px; height:200px; position:absolute; }
+#sectionfive{background-color:#FF9955;visibility:hidden;width:600px; height:200px; position:absolute;  }
